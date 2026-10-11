@@ -1,0 +1,18 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# raw run logs stay local; commit results/summary.md deliberately if you want it public
+results/*.jsonl
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.idea/
